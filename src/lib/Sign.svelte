@@ -3,7 +3,7 @@
   let yellowFill = "#F1CE3D";
 </script>
 
-<svg viewBox="0 0 350 180" class="relative">
+<svg viewBox="0 0 350 180" class="relative" role="img" aria-label="Tuleb varsti">
   <path id="post" d="M156.122 12.261c0-4.415 3.584-8 8-8s8 3.585 8 8v392.32c0 4.416-3.585 8-8 8s-8-3.584-8-8V12.261z" fill={violetFill} />
   <g id="sign">
     <path

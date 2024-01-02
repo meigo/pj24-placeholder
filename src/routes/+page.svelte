@@ -15,6 +15,8 @@
   <meta property="og:description" content={metaDescription} />
 </svelte:head>
 
+<h1>Pühajärve jaanituli 2024</h1>
+
 <video autoplay muted loop>
   <source src="bg.webm" type="video/webm" />
   <source src="bg.mp4" type="video/mp4" />
@@ -36,6 +38,11 @@
 <!-- <DotsOverlay /> -->
 
 <style lang="postcss">
+  h1 {
+    color: #0d96e6;
+    opacity: 0.1;
+    z-index: -20;
+  }
   video {
     @apply fixed top-0 object-cover w-full h-full -z-10;
   }
