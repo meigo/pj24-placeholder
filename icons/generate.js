@@ -18,7 +18,7 @@ const configuration = {
   theme_color: "#FFF", // Theme color user for example in Android's task switcher. `string`
   appleStatusBarStyle: "black-translucent", // Style for Apple status bar: "black-translucent", "default", "black". `string`
   display: "browser", // Preferred display mode: "fullscreen", "standalone", "minimal-ui" or "browser". `string`
-  orientation: "portrait", // Default orientation: "any", "natural", "portrait" or "landscape". `string`
+  orientation: "any", // Default orientation: "any", "natural", "portrait" or "landscape". `string`
   scope: "/", // set of URLs that the browser considers within your app
   start_url: "/", // Start URL when launching the application from a device. `string`
   preferRelatedApplications: false, // Should the browser prompt the user to install the native companion app. `boolean`
@@ -35,11 +35,11 @@ const configuration = {
     //   * true - force use default, e.g. set background for Android icons
     //   * color - set background for the specified icons
     //
-    android: true, // Create Android homescreen icon. `boolean` or `{ offset, background }` or an array of sources
-    appleIcon: true, // Create Apple touch icons. `boolean` or `{ offset, background }` or an array of sources
+    android: false, // Create Android homescreen icon. `boolean` or `{ offset, background }` or an array of sources
+    appleIcon: false, // Create Apple touch icons. `boolean` or `{ offset, background }` or an array of sources
     appleStartup: false, // Create Apple startup images. `boolean` or `{ offset, background }` or an array of sources
-    favicons: { background: true }, // Create regular favicons. `boolean` or `{ offset, background }` or an array of sources
-    windows: true, // Create Windows 8 tile icons. `boolean` or `{ offset, background }` or an array of sources
+    favicons: { background: false }, // Create regular favicons. `boolean` or `{ offset, background }` or an array of sources
+    windows: false, // Create Windows 8 tile icons. `boolean` or `{ offset, background }` or an array of sources
     yandex: false, // Create Yandex browser icon. `boolean` or `{ offset, background }` or an array of sources
   },
   shortcuts: [
